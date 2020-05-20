@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: comic sans ms;
+	font-size: 16px;
+	background-color: rgb(151,151,151);
+}
+
+h1{
+	text-align: center;
+	font-size: 1.75em;
+}
+
+.box1,.box2,.box3{
+
+	box-sizing: border-box;
+	background-color: rgb(101,151,151);
+	border: 2px solid black;
+	color: rgb(0,34,34);
+	border-radius: 15px;
+	border-bottom-left-radius: 0; 
+	padding: 0 0 6px 4px;
+	margin: 5px 5px 5px 0;
+	float: left;
+	width: 30%
+
+}
+
+#head1,#head2,#head3{
+
+	font-size: 1.25em;
+	border: 1px solid black;
+	border-top-right-radius: 15px;
+	border-right: none;
+	border-top: none;
+	border-bottom-left-radius: 10px;  
+	padding: 0 10% 0 10%;
+	width: max-content;
+	float: right;
+	margin-top: 0;
+}
+
+#head1{
+	background-color: rgb(213,152,152);
+}
+#head2{
+	background-color: rgb(193,069,067);
+}
+#head3{
+	background-color: rgb(229,209,152);
+}
+
+
+p{
+	clear: right;
+}
+
+@media (max-width: 992px){
+
+	.box1,.box2,.box3{
+		width: 33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	.box1,.box2{
+		
+		width: 45%;
+		float: left;
+		margin-right: 2%;
+	}
+
+	.box3{
+		width: 92%;
+		float: left;
+	}
+}
+
+@media (max-width: 767px){
+
+	.box1,.box2,.box3{
+		width: 90%;
+		float: left;
+	}
+
+}
