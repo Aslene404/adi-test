@@ -1,0 +1,32 @@
+.container-fluid{
+	background-color: #003a6f;
+}
+.navbar-brand a{
+	font-size: xx-large;
+	color: #ffc56c;
+	
+}
+.navbar-brand a:hover, .navbar-default .navbar-nav > li > a:hover{
+	color: #6ec5e9;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffc56c;
+    font-size: medium;
+}
+#para{
+	color: #ff5959;
+	background-color: #f2f1f1;
+	width: 90%;
+	margin: 0 auto;
+	padding: 15px;
+	border-radius: 5px;
+}
+.navbar-default .navbar-toggle,.navbar-default .navbar-toggle .icon-bar {
+    border: 1px solid #ffc56c;
+}
+h3{
+	color: #ffc56c;
+	font-weight: bold;
+	margin: 5px;
+}
